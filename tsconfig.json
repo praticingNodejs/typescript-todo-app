@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "commonjs",
+        "declaration": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "outDir": "dist/",
+        "listFiles": true,
+        "noEmitHelpers": false,
+        "alwaysStrict": true,
+        "suppressExcessPropertyErrors": false,
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitAny": false,
+        "diagnostics": true
+    },
+    "include": ["src/**/*"],
+    "exclude": [
+        "node_modules",
+        "src/__tests__/*"
+    ],
+    "compileOnSave":  false
+}
