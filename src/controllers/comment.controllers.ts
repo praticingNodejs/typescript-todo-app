@@ -1,8 +1,8 @@
 import { Request, Response } from 'express'
 import CommentInterface from '../interfaces/comment.interface'
 
-import Comment from '../models/Comment.model'
-import Todo from '../models/Todo.model'
+import Comment from '../models/comment.model'
+import Todo from '../models/todo.model'
 import BaseController from './base.controllers'
 
 class CommentController extends BaseController {

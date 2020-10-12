@@ -1,7 +1,7 @@
 import { Router } from 'express'
 
-import todoRouter from './todo'
-import commentRouter from './comment'
+import todoRouter from './todo.route'
+import commentRouter from './comment.route'
 
 const router = Router()
 

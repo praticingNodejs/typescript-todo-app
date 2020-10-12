@@ -1,4 +1,4 @@
-import Todo from '../models/Todo.model'
+import Todo from '../models/todo.model'
 import BaseController from './base.controllers'
 
 class TodoController extends BaseController {
