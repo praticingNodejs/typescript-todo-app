@@ -12,10 +12,10 @@ const TodoSchema = new mongoose.Schema({
     },
     comments: [{
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'comments'
+        ref: 'Comment'
     }]
 }, { timestamps: true })
 
-const Todo = mongoose.model('todos', TodoSchema)
+const Todo = mongoose.model('Todo', TodoSchema)
 
 export default Todo
