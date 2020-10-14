@@ -3,7 +3,7 @@ import CommentInterface from '../interfaces/comment.interface'
 
 import Comment from '../models/comment.model'
 import Todo from '../models/todo.model'
-import BaseController from './base.controllers'
+import BaseController from './base.controller'
 
 class CommentController extends BaseController {
     constructor() {

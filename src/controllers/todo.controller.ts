@@ -1,5 +1,5 @@
 import Todo from '../models/todo.model'
-import BaseController from './base.controllers'
+import BaseController from './base.controller'
 
 class TodoController extends BaseController {
     constructor() {
